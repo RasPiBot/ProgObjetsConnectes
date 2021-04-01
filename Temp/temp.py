@@ -12,7 +12,7 @@ while True:
          temperature_c = dhtDevice.temperature
          temperature_f = temperature_c * (9 / 5) + 32
          humidity = dhtDevice.humidity
-         print("Temp: {:.1f} F / {:.1f} C    Humidity: {}% "
+         print("Température: {:.1f} F / {:.1f} C    Humidité: {}% "
                .format(temperature_f, temperature_c, humidity))
         # DHT11 pas souvent fiable, message d'erreur en cas de problème
     except RuntimeError as error:     

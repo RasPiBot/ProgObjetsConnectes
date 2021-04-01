@@ -8,7 +8,7 @@ import adafruit_matrixkeypad
 # Definitions des pin et touches
 
 rows = [digitalio.DigitalInOut(x) for x in (board.D18, board.D23, board.D24, board.D25)]
-cols = [digitalio.DigitalInOut(x) for x in (board.D19, board.D22, board.D27, board.D17)]
+cols = [digitalio.DigitalInOut(x) for x in (board.D10, board.D22, board.D27, board.D17)]
 keys = ((1, 2, 3, 'A'),
         (4, 5, 6, 'B'),
         (7, 8, 9, 'C'),

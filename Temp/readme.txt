@@ -1,6 +1,6 @@
 Petit script pour avoir la temperature et l'humidité a partir d'un sensor DHT11
 
-Pour commancer, installer la librairie suivante :
+Pour commencer, installer la librairie suivante :
 
     pip3 install adafruit-circuitpython-dht
 
